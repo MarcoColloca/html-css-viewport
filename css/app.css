@@ -41,7 +41,7 @@ img{
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    height: 100vh;
+    height: 90vh;
     padding: 30px;
     background-color: black;
     color: white;
@@ -51,4 +51,39 @@ img{
 
 .header__list{
     list-style: unset;
+}
+
+
+
+
+
+/* MAIN */
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+.footer__bar .row{
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(94, 94, 94);
+    color: white;
+    min-height: 10vh;
+    width: 100%;
+    padding: 0px 20px;
+}
+
+
+.footer__bar__list{
+    list-style: unset;
+}
+
+.footer__bar__list li{
+    display: inline-block;
 }
