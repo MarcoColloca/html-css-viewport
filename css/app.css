@@ -1,0 +1,34 @@
+/* RESET */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul, ol , menu{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: currentcolor;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+/* LAYOUT  */
+
+.conteiner{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
