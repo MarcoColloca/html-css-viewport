@@ -99,6 +99,8 @@ button{
 	background-color: #141923;
     display: flex;
     flex-direction: column;
+    color: white;
+
 }
 
 .main__page__sub__bar{
@@ -112,8 +114,8 @@ button{
 .main__page__first-conteiner{
     display: flex;
     flex-wrap: wrap;
-    color: white;
     margin-top: 50px;
+    align-items: flex-start;
 }
 
 .mane__page__content{
