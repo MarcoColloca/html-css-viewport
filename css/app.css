@@ -6,7 +6,7 @@
     margin: 0;
 }
 
-ul, ol , menu{
+ol , menu{
     list-style: none;
 }
 
@@ -38,9 +38,6 @@ img{
 }
 
 
-#app{
-    display: flex;
-}
 
 button{
     padding: 10px;
@@ -60,28 +57,38 @@ button{
 
 
 
+/* Style */
 
-
-
+#app{
+    display: flex;
+    height: 100vh;
+}
 
 
 /* HEADER */
 
+.header__page{
+    height: calc(100vh - 90px);
+    height: calc(100% - 90px);
+}
+
+
+.header__nav{
+    display: flex;
+    height: 100%;
+}
 
 
 .header__nav .row{
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    height: 90vh;
     padding: 30px;
     background-color: black;
     color: white;
     width: 200px;
     flex-shrink: 0;
-    /* position: fixed; */
-    top: 0;
-    left: 0;
+    overflow: auto;
 }
 
 .header__list{
@@ -100,6 +107,7 @@ button{
     display: flex;
     flex-direction: column;
     color: white;
+    height: calc(100% - 90px);
 
 }
 
@@ -122,9 +130,8 @@ button{
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 30px;
-
 }
 
 
@@ -133,17 +140,24 @@ button{
 .main__page__first-conteiner .col-4{
     border-left: solid 1px white;
     padding: 10px;
-    height: max-content;
     margin-bottom: 20px;
 }
 
 
+.main__page__first-section{
+    margin-bottom: 30px;
+}
 
 
+.main__page__second-section ul{
+    margin-left: 20px;
+    margin-top: 10px;
+}
 
 
-
-
+.main__page__second-section__text{
+    margin: 20px 0;
+}
 
 
 
@@ -156,12 +170,13 @@ button{
     align-items: center;
     background-color: rgb(94, 94, 94);
     color: white;
-    height: 10vh;
+    min-height: 90px;
     width: 100%;
     padding: 0px 20px;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 0;
+    overflow: auto;
 }
 
 
