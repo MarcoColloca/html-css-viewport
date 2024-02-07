@@ -33,6 +33,12 @@ img{
 }
 
 
+#app{
+    display: flex;
+}
+
+
+
 /* HEADER */
 
 
@@ -47,6 +53,9 @@ img{
     color: white;
     width: 200px;
     flex-shrink: 0;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
 }
 
 .header__list{
@@ -59,14 +68,18 @@ img{
 
 /* MAIN */
 
-/* .main__page{
-    background-color: rgb(55, 55, 80);
-    height: 50vh;
-    width: 50vw;
-    display: flex;
-    flex-grow: 1;
-} */
+.main__page{
+	flex-grow: 1;
+	background-color: #494949;
+}
 
+.main__page__sub__bar{
+    padding: 30px;
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
 
 
 
@@ -83,6 +96,9 @@ img{
     height: 10vh;
     width: 100%;
     padding: 0px 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
 
