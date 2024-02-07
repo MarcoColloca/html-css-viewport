@@ -61,7 +61,7 @@ button{
 
 #app{
     display: flex;
-    height: 100vh;
+    min-height: calc(100vh - 90px);
 }
 
 
@@ -73,8 +73,8 @@ h2{
 /* HEADER */
 
 .header__page{
-    height: calc(100vh - 90px);
-    height: calc(100% - 90px);
+    /* height: calc(100vh - 90px);
+    height: calc(100% - 90px); */
 }
 
 
@@ -112,8 +112,6 @@ h2{
     display: flex;
     flex-direction: column;
     color: white;
-    height: calc(100% - 90px);
-
 }
 
 .main__page__sub__bar{
@@ -131,7 +129,7 @@ h2{
     align-items: flex-start;
 }
 
-.mane__page__content{
+.main__page__content{
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -176,12 +174,9 @@ h2{
     align-items: center;
     background-color: rgb(94, 94, 94);
     color: white;
-    min-height: 90px;
+    height: 90px;
     width: 100%;
     padding: 0px 20px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
     overflow: auto;
 }
 
