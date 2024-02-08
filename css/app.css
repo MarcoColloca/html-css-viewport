@@ -60,6 +60,10 @@ button{
 /* Style */
 
 #app{
+    height: 100vh;
+}
+
+.app{
     display: flex;
     min-height: calc(100vh - 90px);
 }
